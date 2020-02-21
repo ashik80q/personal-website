@@ -1,0 +1,157 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin:0;
+    padding: 0;
+    box-sizing: content-box;
+    
+   
+}
+h1,h3{
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.name-higligh{
+
+    
+    color:rgb(209, 88, 113);
+   
+}
+.box{
+
+    width: 42%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+    
+}
+
+  
+}
+.box img{
+    width: 100%;
+}
+.header{
+      
+    background-image: url(header-bg.png);
+    background-repeat: no-repeat;
+}
+.link-button{
+     
+    text-decoration: none;
+    padding:10px 20px;
+    border-radius: 5px;
+    background-image: linear-gradient(45deg,crimson,tomato);
+    font-weight: 700;
+    color: white;
+    position: relative;
+    top:50px;
+   
+}
+.link-button:hover{
+     
+    background-image: linear-gradient(45deg,rgb(184, 155, 155),white);
+    border: 2px solid crimson;
+    border-radius: 5px;
+    color: rgb(184, 23, 55);
+    
+
+}
+section{
+    height: 500px;
+    padding-bottom: 150px;
+}
+.header{
+    background-image: url(header-bg.png);
+    background-repeat: no-repeat;
+}
+.text{
+    width: 100%;
+    margin:2px;
+    padding-top: 100px;
+    padding-left: 20px;
+}
+.biography{
+
+    background-image: url(biography-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.latest-work-gallery{
+
+    margin-top:150px;
+    background-image: url(latest-work-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.latest-work h1{
+    text-align: center;
+    margin:5%;
+    font-size: 40px;
+    padding:5px;
+    
+}
+
+
+
+.latest-work-gallery img{
+
+    width: 25%;
+    float: left;
+     padding:50px;
+     transition: all 1s linear;
+
+
+}
+.latest-work-gallery img:hover{
+    width: 27%;
+    
+}
+.client-comment{
+
+    text-align: center;
+}
+#client-text{
+    width: 100px;
+}
+.client-comment h1{
+    padding-bottom: 0px;
+}
+
+#pragraph{
+    position: relative;
+    left:480px;
+    top:10px;
+    display:block; 
+    width: 400px; 
+    text-align: center;
+    font-weight: 800;
+}
+.gmail{
+    background-color:rgb(224, 100, 141);
+    margin-left: 300px;
+    margin-right: 250px;
+    margin-top: 40px;
+    padding: 5px;
+    width: 700px;
+    height: 150px;
+    color:white;
+    border-radius: 10px;
+}
+.gmail h3{
+    padding-top: 10px;
+    
+}
+.gmail p{
+     font-size: 30px;
+     
+}
+footer{
+    text-align: center;
+    background-image: url(footer-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 20px;
+    
+}
